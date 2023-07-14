@@ -85,4 +85,19 @@ public class Campo {
 	public boolean isAberto() {
 		return aberto;
 	}
+	
+	public boolean isFechado() {
+		return !isAberto();
+	}
+
+	public int getLinha() {
+		return linha;
+	}
+
+	public int getColuna() {
+		return coluna;
+	}
+	
+	
+	
 }
