@@ -69,13 +69,15 @@ public class Campo {
 			return true;
 		} else {
 			return false;
-		}
-		
-		
+		}	
 	}
 	
 	boolean vizinhancaSegura() {
 		return vizinhos.stream().noneMatch(v -> v.minado);
+	}
+	
+	public boolean isMinado() {
+		return minado;
 	}
 	
 	public boolean isMarcado() {
