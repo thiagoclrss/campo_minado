@@ -66,7 +66,7 @@ public class Tabuleiro {
 		}
 	}
 		
-	boolean objeticoAlcancado() {
+	boolean objetivoAlcancado() {
 		return campos.stream().allMatch(c -> c.objeticoAlcancado());
 	}
 
